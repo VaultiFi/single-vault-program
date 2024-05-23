@@ -1,0 +1,21 @@
+[package]
+name = "single-vault-program"
+version = "0.0.1"
+authors = ["TheLazySol <https://github.com/TheLazySol>"]
+description = "A custom solana program known as a single-vault program that only rewards one spl-token reward."
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "single_vault_program"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
+
+[dependencies]
+anchor-lang = "0.30.0"
