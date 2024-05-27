@@ -5,14 +5,14 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-single_vault_program = "VPgJKrxm2PNrWcF7mnspgqnRLboaoBdVkLcrPZ9qig8"
+single_vault_program = "5z6TMA2KJS99AJtZSn51mGLj394Sq4dfcoh36ZmVKeuk"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
 cluster = "Localnet"
-wallet = "/home/skippcode/solana_projects/vaultifi_organization/single-vault-program/keypairs/Lzy1MnsQTNJXKMWtBsVHZruWEjR3HuFCVAQ1mYQTPVr.json"
+wallet = "~/solana_projects/vaultifi_organization/single-vault-program/keypairs/Lzy1MnsQTNJXKMWtBsVHZruWEjR3HuFCVAQ1mYQTPVr.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
