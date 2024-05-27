@@ -5,7 +5,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-single_vault_program = "12i6Bo93TrMuSmk9cMiVT1yt1P2hcE8hkB92EWe6YnS5"
+single_vault_program = "5z6TMA2KJS99AJtZSn51mGLj394Sq4dfcoh36ZmVKeuk"
 
 [registry]
 url = "https://api.apr.dev"

@@ -1,6 +1,6 @@
 [package]
 name = "single-vault-program"
-version = "0.0.3"
+version = "0.0.4"
 authors = ["TheLazySol <https://github.com/TheLazySol>"]
 description = "A custom solana program known as a single-vault program that only rewards one spl-token reward."
 edition = "2021"
